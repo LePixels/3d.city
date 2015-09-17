@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>3D.CITY</title>
+<title>PixelCity - Crée ta ville !</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="icon" href="favicon.ico" />
@@ -97,19 +97,19 @@ function loop() {
 //=======================================
 
 function saveGame(){
-    console.log("save game");
+    console.log("Sauvegarder la partie");
     cityWorker.postMessage({tell:"SAVEGAME"});
     //saveTextAsFile('test', 'game is saved');
 }
 
 function loadGame(){
-    console.log("load game");
+    console.log("Charger la partie");
     loadFileAsText();
     //saveTextAsFile('test', 'game is saved');
 }
 
 function newGameMap(){
-    console.log("new map");
+    console.log("Nouvelle Partie");
 
     //saveTextAsFile('test', 'game is saved');
 }
